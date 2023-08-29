@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Stutern Feedback/Survey Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- FORM -->
+    <section>
+
+    <header>
+        <h1> Welcome To The Survey Form</h1>
+    </header>
+   
+        
+        
+        <!-- <button onclick="myFunction()">Click Me</button>
+
+        <div id="myDIV">
+        This is my DIV element.
+        </div> -->
+      
+        <form action="/" method="post">
+            
+            <div class="form-control">
+                <div>
+                   <label>First name </label>
+                <input type="text" name="fname">
+                </div>
+                <div><label>Last name </label>
+                    <input type="text" name="last_name">
+                    </div>
+                <div><label>Email address </label>
+                    <input type="email" name="email"></div>
+                <div> <label>Phone number </label>
+                    <input type="number" name="no"></div>
+                <div><label>What track do you belong to? </label>
+                    <select class='select-track'>
+                        <option value="frontend">Front End</option>
+                        <option value="backend">Back End</option>
+                        <option value="software-testing"> Software Testing</option>
+                        <option value="data-science"> Data Science</option>
+                        <option value="mobile-apps">Mobile Apps</option>
+                    </select>
+                </div>
+
+                
+                    
+                <div>
+                        <label for="occupation"> Select which best describes you</label>
+                        <input type="radio" name="occupation" /> <span>Student</span>
+                        <input type="radio" name="occupation" /> <span>Working Class</span>
+                        <input type="radio" name="occupation" /> <span>Self Employed</span>
+        
+                    </div>
+        
+                   
+               
+            <div  >
+                <label>What technologies are you now familiar with?</label>
+                <input type="checkbox">Git</input>
+                <input type="checkbox">HTML</input>
+                <input type="checkbox">CSS</input>
+                <input type="checkbox">JavaScript</input>
+                
+            
+                
+            </div>
+          
+            
+        </form>
+        
+        
+        <div class="btn form">
+            <button id="toggleButton">Next</button>
+            <button type="reset">Reset</button>
+        </div>
+             
+        
+        
+    </section>
+    <div id="select">
+        <h1> Thanks for Submitting the Survey</h1>
+    </div>
+
+    
+    <script src="/app.js"></script>
+</body>
+
+</html>

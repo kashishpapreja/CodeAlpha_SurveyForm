@@ -1,0 +1,113 @@
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+
+  html,
+  body {
+    height: 100%;
+  }
+  
+
+  input,
+  button,
+  textarea,
+  select {
+      font: inherit;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ 
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* SURVEY FORM STYLES */
+  
+  form {
+      background-color  : blueviolet;
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 30px;
+    }
+    
+    .form-control {
+      text-align: left;
+      margin-bottom: 24px;
+      /* display: none; */
+  }
+  
+  .form-control label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  
+  
+  
+  .form-control input,
+  .form-control select,
+  .form-control textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+  }
+  
+  .form-control input[type="radio"],
+  .form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+  }
+
+  
+ header{
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    text-emphasis:initial;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+#select{
+  display:  none;
+  text-align: right;
+  padding: 10px;
+  font-size: larger;
+ 
+
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.form-control > div{
+  padding-bottom: 20px;
+}
+.btn{
+  height: 60px;
+  margin: 50px ;
+  /* margin-bottom: 50px; */
+  text-align: center;
+  
+}
+.btn>button{
+  text-align: center;
+  padding-left: 10px;
+  margin-right: 5px;
+  font-size: 1.5rem;
+ border-radius: 10px;
+
+
+
+}
