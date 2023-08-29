@@ -2,17 +2,17 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-// Get references to the button and the element
+
 const toggleButton = document.getElementById("toggleButton");
 const elementToToggle = document.getElementById("select");
 const selectElement = document.querySelector("section");
 
-// Add a click event listener to the button
+
 toggleButton.addEventListener("click", function () {
-  // Toggle the display property of the element
+
   if (elementToToggle.style.display === "none") {
     selectElement.style.display = "none";
-    elementToToggle.style.display = "flex"; // or 'inline', 'flex', etc.
+    elementToToggle.style.display = "flex"; 
   } else {
     elementToToggle.style.display = "none";
   }
